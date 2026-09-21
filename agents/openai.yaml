@@ -1,0 +1,4 @@
+interface:
+  display_name: "V2Fun Split to Print"
+  short_description: "Color separation and assembleable 3D print parts"
+  default_prompt: "Use $v2fun-split-to-print to color this existing model from the supplied references, split the requested printable parts, add supported assembly interfaces, and deliver an assembled project and vertex-color OBJ with MTL."

@@ -1,0 +1,17 @@
+{
+  "name": "v2fun-split-to-print",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workflow": "agent-guided local Blender",
+  "required": {
+    "blender": "4.x",
+    "python": "Blender bundled Python"
+  },
+  "api_key_required": false,
+  "sibling_skills_required": false,
+  "export_helper": "scripts/export_obj_bundle.py",
+  "export_helper_scope": "constant face materials only; not vertex RGB baking or automatic segmentation",
+  "demo_helper": "scripts/build_demo.py",
+  "demo_helper_scope": "reviewed assembled scene plus explicit palette/part manifest to single offline solid-color HTML",
+  "demo_browser": "JavaScript and WebGL; no network required"
+}

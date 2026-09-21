@@ -1,0 +1,11 @@
+{
+  "title": "My print parts",
+  "mm_per_unit": 1,
+  "preview_ratio": 1,
+  "notes": "Replace these example objects, colors and explosion vectors with the reviewed part plan.",
+  "palette": [{"name": "Blue", "hex": "#315ea8"}, {"name": "Ivory", "hex": "#e8e5de"}],
+  "parts": [
+    {"object": "Body", "color": 0, "exploded_mm": [0, 0, 0]},
+    {"object": "Cap", "color": 1, "exploded_mm": [0, 0, 25]}
+  ]
+}
